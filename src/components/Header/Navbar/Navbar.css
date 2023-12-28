@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    /* background: #333; */
+    color: #111111;
+    height: 60px;
+}
+
+.navbar-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+
+    gap: 15px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #111111;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.navbar-link:hover {
+    color: #ddd;
+}

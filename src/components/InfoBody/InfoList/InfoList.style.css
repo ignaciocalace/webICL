@@ -1,0 +1,89 @@
+.info-list {
+    margin: 0 auto;
+    width: 48%;
+    min-width: 375px;
+    max-width: 85vw;
+}
+
+.container-experience .info-list {
+    width: 100%;
+}
+
+.info-list ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0 3rem;
+    justify-content: center;
+    padding: 25px;
+
+}
+
+
+
+.info-list li {
+    margin: 0 0 1.2rem 0;
+    border-top: 2px solid #333;
+    border-left: 2px solid #333;
+    padding: 0.5rem 0 0 0.5rem;
+    flex: 1;
+    max-width: 50%;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.info-list li:hover {
+    border-top: 2px solid var(--apple-green);
+    border-left: 2px solid var(--apple-green);
+    transition: all 0.6s ease-in-out;
+}
+
+.info-list h3 {
+    font-size: 32px;
+    margin: 0;
+    text-wrap: wrap;
+}
+
+.info-list h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.info-list h6 {
+    font-size: 17px;
+    margin: 0.3rem 0 0 0;
+}
+
+.info-list p {
+    font-size: 17px;
+
+    margin: 0.3rem 0 0 0;
+
+}
+
+.info-list p span {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0.3rem 0 0 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .info-list {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .info-list ul {
+        flex-direction: column;
+    }
+
+    .info-list li {
+        max-width: 100%;
+    }
+
+}

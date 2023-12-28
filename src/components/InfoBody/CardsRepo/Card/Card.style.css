@@ -1,0 +1,66 @@
+.container-card {
+    height: 100%;
+    padding: 1rem;
+    background-color: var(--dark-gray);
+    backdrop-filter: blur(25px);
+    border-radius: 0.7rem;
+    transition: all ease 0.4s;
+}
+
+.container-card h4 {
+    font-size: 25px;
+    font-weight: 500;
+    margin: .4rem 0 0 0;
+}
+
+.container-card p {
+    margin: 0.5rem 0;
+}
+
+.container-card .container-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-card .container-links a {
+    background-color: var(--pear);
+    margin: 0.5rem 1rem;
+    color: var(--black);
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 1.3rem;
+    transition: all 0.5s ease;
+}
+
+.container-card .container-links a:hover {
+    background-color: var(--black);
+    color: var(--pear);
+}
+
+.container-image {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-image img {
+    max-width: 350px;
+    border-radius: 0.8rem;
+    box-shadow: 5px 20px 20px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.container-image .static-image {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width :869px) {
+    .container-image img {
+        max-width: 500px;
+    }
+
+
+}

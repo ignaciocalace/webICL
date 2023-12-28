@@ -1,0 +1,110 @@
+.container-skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-skills h3 {
+    font-size: 32px;
+    margin: auto;
+}
+
+.container-mern {
+    max-width: 70%;
+    margin: 1rem auto 1.8rem;
+}
+
+.container-mern img {
+    min-height: 65px;
+    height: 4vw;
+    margin: 1.5rem
+}
+
+.container-mern .skill-image {
+    position: relative;
+    display: inline-block;
+
+}
+
+.container-mern .skill-image::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    white-space: nowrap;
+    background-color: var(--pear);
+    font-size: 1.2em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-mern .skill-image:hover::before {
+    opacity: 1;
+}
+
+.container-skills-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: auto;
+    min-width: 90%;
+    justify-content: center;
+}
+
+.skills-column::before,
+.skills-column::after {
+    content: "";
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='150' height='150' preserveAspectRatio='none' viewBox='0 0 150 150'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1031%26quot%3b)' fill='none'%3e%3cpath d='M91.224%2c80.775C104.233%2c80.154%2c117.188%2c76.668%2c124.5%2c65.89C132.811%2c53.639%2c137.118%2c37.264%2c129.248%2c24.725C121.684%2c12.672%2c105.454%2c12.823%2c91.224%2c12.868C77.11%2c12.913%2c61.674%2c13.377%2c53.617%2c24.965C44.557%2c37.995%2c43.081%2c56.193%2c51.949%2c69.354C60.115%2c81.472%2c76.628%2c81.472%2c91.224%2c80.775' fill='rgba(182%2c 194%2c 21%2c 0.68)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M130.163%2c24.605C134.467%2c24.733%2c138.504%2c22.457%2c140.698%2c18.752C142.934%2c14.975%2c143.285%2c10.155%2c140.902%2c6.469C138.678%2c3.029%2c134.259%2c2.42%2c130.163%2c2.457C126.152%2c2.493%2c121.828%2c3.227%2c119.751%2c6.658C117.617%2c10.183%2c118.591%2c14.591%2c120.659%2c18.156C122.718%2c21.705%2c126.062%2c24.483%2c130.163%2c24.605' fill='rgba(182%2c 194%2c 21%2c 0.68)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M30.923%2c71.513C42.636%2c72.041%2c53.121%2c63.679%2c58.049%2c53.04C62.354%2c43.748%2c57.797%2c33.687%2c52.508%2c24.917C47.455%2c16.538%2c40.684%2c8.737%2c30.923%2c8.058C20.014%2c7.3%2c8.646%2c11.895%2c3.427%2c21.504C-1.617%2c30.792%2c2.631%2c41.512%2c7.723%2c50.773C13.08%2c60.516%2c19.816%2c71.013%2c30.923%2c71.513' fill='rgba(182%2c 194%2c 21%2c 0.68)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M115.038%2c110.059C124.681%2c110.75%2c135.232%2c109.047%2c140.52%2c100.953C146.214%2c92.237%2c145.759%2c80.504%2c140.024%2c71.815C134.765%2c63.847%2c124.58%2c62.024%2c115.038%2c62.343C106.168%2c62.64%2c97.136%2c65.658%2c92.791%2c73.397C88.519%2c81.006%2c90.657%2c90.244%2c95.184%2c97.704C99.518%2c104.847%2c106.704%2c109.462%2c115.038%2c110.059' fill='rgba(182%2c 194%2c 21%2c 0.68)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1031'%3e%3crect width='150' height='150' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    position: absolute;
+}
+
+.skills-column::before {
+    width: 5rem;
+    height: 5rem;
+    top: 18%;
+    right: 14%;
+}
+
+.skills-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-wrap: nowrap;
+    position: relative;
+    max-width: fit-content;
+}
+
+.skills-column .box {
+    height: 100%;
+    padding: 0 1rem;
+    background-color: var(--dark-gray);
+    backdrop-filter: blur(25px);
+    border-radius: 0.7rem 0 0.7rem 0;
+    transition: all ease 0.4s;
+}
+
+
+
+.skills-column .box:hover {
+    box-shadow: 0px 0px 22px 5px var(--pear);
+
+}
+
+.skills-column h4 {
+    font-size: 22px;
+    margin: 1rem;
+}
+
+.skills-column ul {
+    list-style: circle;
+}
+
+.skills-column ul li {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+
+}

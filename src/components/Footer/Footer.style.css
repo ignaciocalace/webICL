@@ -1,0 +1,16 @@
+.footer {
+    min-height: 310px;
+    width: 100%;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='300' preserveAspectRatio='none' viewBox='0 0 1440 300'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1076%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c30 C 72%2c45.2 216%2c109.6 360%2c106 C 504%2c102.4 576%2c17.6 720%2c12 C 864%2c6.4 936%2c71.6 1080%2c78 C 1224%2c84.4 1368%2c50.8 1440%2c44L1440 300L0 300z' fill='rgba(217%2c 231%2c 35%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c192 C 96%2c201.4 288%2c246 480%2c239 C 672%2c232 768%2c150 960%2c157 C 1152%2c164 1344%2c250.6 1440%2c274L1440 300L0 300z' fill='rgba(182%2c 194%2c 21%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1076'%3e%3crect width='1440' height='300' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: 1px solid red;
+}

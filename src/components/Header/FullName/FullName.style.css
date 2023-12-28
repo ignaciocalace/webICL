@@ -1,0 +1,28 @@
+.containerFullName {
+    width: 25vw;
+    min-width: 260px;
+    max-width: 500px;
+}
+
+.containerFullName img {
+    width: 100%;
+    filter: grayscale(100%) drop-shadow(4px 0px 15px var(--black));
+    transition: filter 0.5s ease;
+}
+
+.containerFullName h3 {
+    display: block;
+    margin: 0;
+    padding: 0.5vh 0;
+    width: 100%;
+    background-color: var(--pear);
+    font-family: "Khand-Regular";
+    font-size: 1.5em;
+    color: var(--black);
+    letter-spacing: 0.9vw;
+    text-align: center;
+}
+
+.containerFullName:hover img {
+    filter: grayscale(0%) drop-shadow(4px 0px 15px var(--black));
+}
