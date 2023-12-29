@@ -1,5 +1,5 @@
 import React from "react";
-import "./skills.style.css";
+import "./Skills.style.css";
 
 const Skills = () => {
   const frontEndSkills = [
