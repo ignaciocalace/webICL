@@ -22,3 +22,9 @@
 .main-title span.subtitle {
     display: inline;
 }
+
+@media screen and (max-width:768px) {
+    .title-container h1 {
+        font-size: 40px;
+    }
+}

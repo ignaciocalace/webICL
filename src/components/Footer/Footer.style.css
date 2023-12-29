@@ -1,7 +1,12 @@
 .footer {
-    min-height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    min-height: 350px;
     width: 100%;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='300' preserveAspectRatio='none' viewBox='0 0 1440 300'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1076%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c30 C 72%2c45.2 216%2c109.6 360%2c106 C 504%2c102.4 576%2c17.6 720%2c12 C 864%2c6.4 936%2c71.6 1080%2c78 C 1224%2c84.4 1368%2c50.8 1440%2c44L1440 300L0 300z' fill='rgba(217%2c 231%2c 35%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c192 C 96%2c201.4 288%2c246 480%2c239 C 672%2c232 768%2c150 960%2c157 C 1152%2c164 1344%2c250.6 1440%2c274L1440 300L0 300z' fill='rgba(182%2c 194%2c 21%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1076'%3e%3crect width='1440' height='300' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    padding-bottom: 1.5rem;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='400' preserveAspectRatio='none' viewBox='0 0 1920 400'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1085%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c59 C 96%2c74.6 288%2c137.8 480%2c137 C 672%2c136.2 768%2c55.2 960%2c55 C 1152%2c54.8 1248%2c135 1440%2c136 C 1632%2c137 1824%2c75.2 1920%2c60L1920 400L0 400z' fill='rgba(217%2c 231%2c 35%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c320 C 128%2c311 384%2c271.6 640%2c275 C 896%2c278.4 1024%2c333.6 1280%2c337 C 1536%2c340.4 1792%2c301 1920%2c292L1920 400L0 400z' fill='rgba(182%2c 194%2c 21%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1085'%3e%3crect width='1920' height='400' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
     background-repeat: no-repeat;
     background-position: center bottom;
 }
@@ -12,5 +17,135 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    border: 1px solid red;
+    margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 1261px) {
+    .footer {
+        min-height: 440px;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='500' preserveAspectRatio='none' viewBox='0 0 1920 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1233%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c89 C 96%2c100.6 288%2c157 480%2c147 C 672%2c137 768%2c38.4 960%2c39 C 1152%2c39.6 1248%2c136.2 1440%2c150 C 1632%2c163.8 1824%2c116.4 1920%2c108L1920 500L0 500z' fill='rgba(217%2c 231%2c 35%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c327 C 96%2c343.2 288%2c401.4 480%2c408 C 672%2c414.6 768%2c344 960%2c360 C 1152%2c376 1248%2c510 1440%2c488 C 1632%2c466 1824%2c297.6 1920%2c250L1920 500L0 500z' fill='rgba(182%2c 194%2c 21%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1233'%3e%3crect width='1920' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+        padding-bottom: 2rem;
+    }
+
+    .footer-container {
+
+        align-items: end;
+        justify-content: end;
+
+    }
+}
+
+@media screen and (max-width: 638px) {
+    .footer {
+        min-height: 710px;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='660' preserveAspectRatio='none' viewBox='0 0 1920 660'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1244%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c141 C 96%2c162.2 288%2c255.6 480%2c247 C 672%2c238.4 768%2c94.4 960%2c98 C 1152%2c101.6 1248%2c276.6 1440%2c265 C 1632%2c253.4 1824%2c85 1920%2c40L1920 660L0 660z' fill='rgba(217%2c 231%2c 35%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c516 C 96%2c484.8 288%2c341.8 480%2c360 C 672%2c378.2 768%2c596.2 960%2c607 C 1152%2c617.8 1248%2c417.8 1440%2c414 C 1632%2c410.2 1824%2c553.2 1920%2c588L1920 660L0 660z' fill='rgba(182%2c 194%2c 21%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1244'%3e%3crect width='1920' height='660' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+        background-size: cover;
+        background-position: center top;
+    }
+}
+
+
+button {
+    cursor: pointer;
+    width: 150px;
+    height: 56px;
+    overflow: hidden;
+    border: none;
+    color: var(--eerie-black);
+    background: none;
+    position: relative;
+    padding-bottom: 2em;
+
+}
+
+button span {
+    color: var(--eerie-black);
+    font-family: "Montserrat", sans-serif;
+}
+
+button>div,
+button>svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+button:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    background: currentColor;
+    transition: transform 0.25s ease-out;
+}
+
+button:hover:before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+button .clone>*,
+button .text>* {
+    opacity: 1;
+    font-size: 1.3rem;
+    transition: 0.2s;
+    margin-left: 4px;
+}
+
+button .clone>* {
+    transform: translateY(60px);
+}
+
+button:hover .clone>* {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+button:hover .text>* {
+    opacity: 1;
+    transform: translateY(-60px);
+    transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+button:hover .clone> :nth-child(1) {
+    transition-delay: 0.15s;
+}
+
+button:hover .clone> :nth-child(2) {
+    transition-delay: 0.2s;
+}
+
+button:hover .clone> :nth-child(3) {
+    transition-delay: 0.25s;
+}
+
+button:hover .clone> :nth-child(4) {
+    transition-delay: 0.3s;
+}
+
+
+button svg {
+    width: 20px;
+    right: 0%;
+    top: 50%;
+    transform: translateY(-50%) rotate(-50deg);
+    transition: 0.2s ease-out;
+
+}
+
+button:hover svg {
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+@media (min-width: 949px) and (max-width: 1261px) {
+    button {
+        align-self: flex-end;
+        margin-right: 2rem;
+    }
 }

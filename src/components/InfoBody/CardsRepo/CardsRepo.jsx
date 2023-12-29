@@ -43,7 +43,9 @@ const CardsRepo = () => {
 
   return (
     <div id="portfolio" className="container-cardsRepo">
-      <h3>Portfolio</h3>
+      <h3 data-aos="fade-in" data-aos-duration="600">
+        Portfolio
+      </h3>
       <div className="container-cardsRepo-list">
         {repositoryList.map((repositoryListItem) => (
           <Card

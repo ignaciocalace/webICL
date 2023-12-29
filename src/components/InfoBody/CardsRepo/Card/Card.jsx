@@ -3,7 +3,7 @@ import "./Card.style.css";
 
 const Card = ({ image, gif, title, description, linkWeb, linkGit }) => {
   return (
-    <div className="container-card">
+    <div className="container-card" data-aos="fade-up" data-aos-duration="600">
       <div className="container-image">
         <img
           src={image}

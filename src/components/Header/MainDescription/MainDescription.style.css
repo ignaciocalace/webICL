@@ -16,3 +16,11 @@
     margin: 1.5rem 0 2rem 0;
     text-wrap: pretty;
 }
+
+
+@media screen and (max-width:768px) {
+    .containerMainDescription {
+        max-width: 85%;
+        margin-bottom: 2rem;
+    }
+}

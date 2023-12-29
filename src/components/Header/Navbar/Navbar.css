@@ -1,28 +1,43 @@
 .navbar {
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 1rem 2rem;
-    /* background: #333; */
-    color: #111111;
-    height: 60px;
+    margin: 1.5rem auto;
+    max-width: max-content;
 }
 
 .navbar-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style-type: none;
     padding: 0;
-    display: flex;
-
     gap: 15px;
 }
 
 .navbar-link {
     text-decoration: none;
-    color: #111111;
+    color: var(--eerie-black);
     cursor: pointer;
     transition: color 0.2s;
+    font-weight: 300;
+    width: max-content;
 }
 
 .navbar-link:hover {
     color: #ddd;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        margin: 1rem auto;
+    }
+
+    .navbar>div {
+        margin: auto;
+    }
+
+    .navbar-links {
+        gap: 10px;
+    }
+
 }

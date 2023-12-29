@@ -3,10 +3,16 @@ import "./InfoList.style.css";
 const InfoList = ({ title, list }) => {
   return (
     <div className="info-list">
-      <h3>{title}</h3>
+      <h3 data-aos="fade-in" data-aos-duration="600">
+        {title}
+      </h3>
       <ul>
         {list.map((item, index) => (
-          <li key={index}>
+          <li
+            key={index}
+            data-aos="fade-up"
+            data-aos-duration={400 * index + 600}
+          >
             <div>
               <h5>{item.title}</h5>
               <h6>{item.place}</h6>
